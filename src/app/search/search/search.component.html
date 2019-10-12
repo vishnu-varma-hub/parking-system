@@ -1,7 +1,15 @@
 <div>
-    <span>Enter Model Name : </span><input type="text">&nbsp;&nbsp;
+    <span>Enter Model Name : </span><input type="text" #key>&nbsp;&nbsp;
     <button id="search" (click)="search()">Search</button>&nbsp;&nbsp;
-    <button id="display" (click)="display()">Display All</button><br>
+    <button id="display" (click)="display()">Display All</button><br><br><br>
+<table border="2">
+    <tr *ngFor="let v of vehicles ; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{v.model}}</td>
+        <td>{{v.date}}</td>
+        <td>{{v.number}}</td>
 
+    </tr>
+</table>
     
 </div>

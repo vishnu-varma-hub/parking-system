@@ -8,7 +8,7 @@ import { HttpService } from '../../http.service';
 export class SearchComponent implements OnInit {
 
   constructor(public http:HttpService) { }
-  vehicles;
+  vehicles:any;
   ngOnInit() {
   }
   display(){
