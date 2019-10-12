@@ -1,0 +1,7 @@
+<div>
+    <h1> Enter Vehicle Details </h1>
+    <span>Brand Name : </span><input type="text" #model><br>
+    <span>Date : </span><input type="date" #date><br>
+    <span>Number : </span><input type="text" #number><br>
+    <button (click)="add(model.value,date.value,number.value)">Add</button><br>
+</div>

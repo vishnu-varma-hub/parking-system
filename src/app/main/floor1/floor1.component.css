@@ -1,0 +1,29 @@
+
+h2{
+    font-family: sans-serif;
+    margin: 160px 0px 0px 400px;
+    color: #3c3636;
+}
+table{
+    margin:20px 0px 0px 400px;
+}
+td{
+    padding: 40px;
+}
+div{
+    border:2px solid;
+    width:45px;
+    height: 45px;
+}
+button{
+    font-size:20px;
+    padding:10px 20px;;
+    background-color:grey;
+    color:#ffffffe3;
+    border-radius:10px;
+    margin:70px 0px 0px 400px;
+}
+span{
+    font-family: sans-serif;
+    
+}

@@ -1,0 +1,14 @@
+ 
+<h2>Select any one slot</h2>
+<table border="2">
+    <tr>
+        <td><span>1</span><div (click)="slot1()"  id="d1"  ></div> </td>
+        <td><span>2</span> <div (click)="slot2()" id="d2" ></div> </td>
+        <td> <span>3</span><div (click)="slot3()" id="d3"></div> </td>
+        <td> <span>4</span><div (click)="slot4()" id="d4"></div> </td>
+        <td> <span>5</span><div (click)="slot5()" id="d5"></div> </td>
+    </tr>
+</table>
+<button id="bt" (click)="select()" [disabled]="true" >
+    Select
+</button>

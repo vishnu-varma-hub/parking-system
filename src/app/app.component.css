@@ -1,0 +1,23 @@
+
+div{
+    background-color: orange;  
+    border: 1.5px solid;
+    text-align:center;
+    width:100%;
+    line-height:40px;
+    vertical-align: center;
+}
+div a{
+    color: black;
+    padding:10px 60px;
+text-align:center;
+text-decoration:none;
+    font-size:17px;
+    font-weight: 500;
+    margin: 100px;
+    font-family:sans-serif;
+}
+div a:hover{
+    background-color:#DA7026;
+    
+}

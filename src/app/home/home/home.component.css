@@ -1,0 +1,52 @@
+#bgimg{
+    background-image: url("/assets/car29.jpg");
+    width: 1523px;
+    height: 670px;
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+}
+#title{
+    font-family: sans-serif;
+    font-size: 70px;
+    position: absolute;
+    font-weight: 600;
+    margin: 150px 0px 0px 80px;
+}
+.s1{
+    margin-left: 30px;
+    color: #ffc000;
+}
+.s2{
+    margin-left: 30px;
+    color: #ffffffe3;
+}
+.s3{
+    margin-left: 30px;
+    color: #ffffffe3;
+}
+#info{
+    position: absolute;
+    margin: 270px 0px 0px 100px;
+}
+#s{
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.s4{
+    color: #ffc000;
+    margin-left: 20px;
+}
+.s5{
+    color: #ffffffe3;
+    margin-left: 20px;
+}
+button{
+    font-size:20px;
+padding:10px 20px;;
+background-color:#FF365D;
+color:#ffffffe3;
+border-radius:10px;
+position:absolute;
+margin: 390px 0px 0px 350px;
+}

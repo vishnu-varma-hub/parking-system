@@ -1,0 +1,9 @@
+div{
+    border: 1px solid;
+    text-align: center;
+    width:800px;
+    line-height:50px;
+    vertical-align: center;
+    font-family: sans-serif;
+    margin: 120px 0px 0px 350px;
+}
